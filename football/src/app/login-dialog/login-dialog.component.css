@@ -1,0 +1,36 @@
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-left: 140px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  width: 300px; /* Adjust width as needed */
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 16px;
+  background-color: rgb(77, 77, 226);
+}
+
+.login-dialog {
+  max-width: 500px; /* Adjust max-width as needed */
+  max-height: 400px; /* Adjust max-height as needed */
+  padding: 30px; /* Adjust padding as needed */
+  background-color: #f8f9fa;
+  border-radius: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

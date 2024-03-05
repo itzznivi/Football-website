@@ -1,0 +1,5 @@
+<h2>{{ data.match.date }} - {{ data.match.opponent }}</h2>
+<p>Ticket Price: {{ data.match.ticketPrice }}</p>
+<label for="tickets">Number of Tickets:</label>
+<input type="number" id="tickets" [(ngModel)]="numTickets">
+<button (click)="bookTickets()">Book</button>

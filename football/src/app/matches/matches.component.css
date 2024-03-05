@@ -1,0 +1,11 @@
+app-navbar {
+  /* Assuming your navbar has a fixed height */
+  padding-bottom: 20px; /* Adjust as needed */
+}
+
+h1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 40px;
+  font-style: italic;
+}

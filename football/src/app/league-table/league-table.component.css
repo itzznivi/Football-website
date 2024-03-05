@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+h1 {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  color: #333; /* Set the text color */
+  text-align: center; /* Align the text to the center */
+  margin-bottom: 20px; /* Add some bottom margin */
+}
+h1 {
+  padding-top: 20px;
+}

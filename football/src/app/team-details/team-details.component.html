@@ -1,0 +1,15 @@
+<h1>Team Details</h1>
+<div *ngFor="let team of teams" class="team-details">
+  <img [src]="team.image" alt="{{ team.name }} Logo" class="team-logo">
+  <div class="team-info">
+    <h2>{{ team.name }}</h2>
+    <p>Stadium: {{ team.stadium }}</p>
+    <p>Members: {{ team.members }}</p>
+    <p>Matches Won: {{ team.matchesWon }}</p>
+    <p>Matches Lost: {{ team.matchesLost }}</p>
+    <p>Upcoming Matches: {{ team.upcomingMatches }}</p>
+  </div>
+</div>
+
+
+

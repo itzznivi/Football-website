@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+<h1>Latest updates</h1>
+<div class="news-container">
+  <div *ngFor="let news of newsList" class="news-card">
+    <img class="news-logo" src="https://th.bing.com/th/id/R.2ded7112538a1670a4f2ac13b1eb735b?rik=6qV6Q6cApf%2bHWQ&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f06%2fBBC_logo_black_background.png&ehk=FK38Zm%2fIzZMw3iTUE%2bKDZy%2fKcuxMk5KMet%2boiB63tfI%3d&risl=&pid=ImgRaw&r=0" alt="Logo">
+    <div class="news-content">
+      <p class="news-time">{{ news.time }}</p>
+      <h3 class="news-headline">{{ news.headline }}</h3>
+    </div>
+    <img class="news-image" [src]="news.imageUrl" alt="{{ news.headline }}">
+  </div>
+</div>

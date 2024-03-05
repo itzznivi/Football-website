@@ -1,0 +1,46 @@
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.team-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.team-card {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;   
+}
+
+.team-logo {
+  width: 100%;
+  height: auto;
+}
+
+.team-details h3 {
+  margin: 0;
+}
+
+.team-details-expanded {
+  margin-top: 20px;
+}

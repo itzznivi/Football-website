@@ -1,0 +1,42 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.center h2 {
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.center label {
+  margin-bottom: 10px;
+}
+
+.center input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.center button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.center button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+}

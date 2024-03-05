@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+<h1>List of teams</h1>
+<div class="team-list-container">
+
+  <mat-accordion>
+    <mat-expansion-panel class="custom-panel" *ngFor="let team of teams">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <img [src]="team.image" alt="{{ team.name }} Logo" class="team-logo-large">
+          <span class="team-name">{{ team.name }}</span>
+          <span class="stadium">{{ team.stadium }}</span>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="team-details">
+        <p>Members: {{ team.members.join(', ') }}</p>
+        <p>Matches Won: {{ team.matchesWon }}</p>
+        <p>Matches Lost: {{ team.matchesLost }}</p>
+        <p>Upcoming Matches:</p>
+        <div class="book-form">
+          <div *ngFor="let match of team.upcomingMatches" class="match-item">
+            {{ match.date }} - {{ match.opponent }} <button (click)="openBookingDialog(match)">Book</button>
+          </div>
+        </div>
+        
+         
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

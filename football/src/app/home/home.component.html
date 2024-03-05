@@ -1,0 +1,23 @@
+<header>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <a routerLink="/">FootballFrenzy  </a>
+        </div>
+        <ul class="nav-links">
+          <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+          <li><a routerLink="/teams" routerLinkActive="active">Teams</a></li>
+          <li><a routerLink="/matches" routerLinkActive="active">Matches</a></li>
+          <li><a routerLink="/table" routerLinkActive="active">League Table</a></li>
+          <li><a routerLink="/news">News</a></li>
+          <li><a (click)="openLoginDialog()">Login</a></li>
+
+         </ul>
+      </div>
+    </nav>
+</header>
+<div class="img-container">
+  <img src="https://images.pexels.com/photos/270071/pexels-photo-270071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+ 
+</div>  
